@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Pokemon;
+  src: url(../public/Pokemon\ Hollow.ttf);
+}
+
+.title {
+  font-family: Pokemon;
+  color: white;
+  font-size: 60px;
+  src: url(../public/Pokemon\ Hollow.ttf);
+}
+
+:root {
+  --primary: black;
+  --primary-dark: red;
+  --primary-light: #5472d3;
+  --primary-text: #ffffff;
+}
+
+html {
+  background-color: var(--primary);
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+  padding: 8px;
+  font-family: Pokemon;
+  src: url(../public/Pokemon\ Hollow.ttf);
+}
+
+h2 {
+  font-size: 60px;
+  color: var(--primary-text);
+  font-family: Pokemon;
+  src: url(../public/Pokemon\ Hollow.ttf);
+
+}
+
+.center {
+  position: relative;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-left,
+.image-right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  max-width: 500px
+}
+
+.image-left {
+  left: 0;
+}
+
+.image-right {
+  right: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.player {
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-text);
+  color: var(--primary-text);
+  font-family: Pokemon;
+  src: url(../public/Pokemon\ Hollow.ttf);
+  border-radius: 10px;
+}
+
+.score {
+  padding: px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: var(--primary-dark);
+  border-radius: 10px;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--primary);
+}
